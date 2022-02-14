@@ -40,6 +40,8 @@ Finally, this document makes every effort to explicitly link capabilities to ide
     - Projects using this capability: (1) any remote (over-the-wire, where data are not local) control work can make use of a *qnet* style visualization solution, (2) control work using AutoCNet, (3) other SaaS solutions identified in the future can make use of the lessons learned.
 1. provide explicit descriptions attached to each ASC software portfolio library describing if said library can be cloud enabled and if the library has been cloud enabled.
     - Projects using this capability: All users and developers and the bringing the lifecycles into alignment with expectations supports everyone.
+1. develop an interface for the creation of STAC and FGDC compliant metadata from templates, staging of ARD in AWS, and updating of linkages.
+    - Projects using this capability: ARD
 
 ##### In the next five years, the ASC software portfolio could:
 1. develop a accessible cloud ISIS with HTTP(S) access to ISIS applications demonstrating an ISIS as a service (SaaS) solution. Initially private and then possibly publicly accessible.
@@ -104,6 +106,8 @@ Finally, this document makes every effort to explicitly link capabilities to ide
     - Projects using this capability: AutoCNet based control solutions will immediately benefit from this work. Any remote workers and users wishing to setup remote (perhaps on HPC resources) solutions.
 1. package off-the-shelf and/or custom solutions for the generation of analysis ready data and associated metadata including tooling for processing, metadata generation, and metadata management. Metadata management includes the need to update metadata and manage sematic linkages between data sets.
     - Projects using this capability: All analysis ready data (ARD) releases.
+1. collect user experience of data portals through both active and passive means, and implement improvements
+    - Projects using this capability: terrestrial analogs data portal
 
 ##### In the next five years, the ASC software portfolio could:
 1. provide tools for the extraction of limb profiles and limb topography to improve photogrammetric control capabilities and improve shape estimation, primarily for flyby missions.
